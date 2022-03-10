@@ -1,0 +1,63 @@
+@Sub SRSurface = SRSurfaceNormalMap
+    Normal Map = nil
+    Scale & Bias = 1
+    Flip X = 0
+    Flip Y = 0
+    Flip Z = 0
+    Object Space = 0
+@End
+
+@Sub SRMicrosurface = SRMicrosurfaceRoughnessMap
+    Roughness Map = nil
+    Channel = 0
+    Roughness = 0.3
+    Invert;roughness = 0
+@End
+
+@Sub SRAlbedo = SRAlbedoMap
+    Albedo Map = nil
+    Color = 1 1 1
+@End
+
+@Sub SRDiffusion = SRDiffusionLambertian
+@End
+
+@Sub SRReflectivity = SRReflectivityMetalnessAdvanced
+    Metalness Map = nil
+    Channel = 0
+    Metalness = 1
+    Invert = 0
+    Specular Level Map = nil
+    Channel;advMtlMask = 0
+    Specular = 0.08
+    Invert = 0
+    Specular Curve = 0
+@End
+
+@Sub SRReflection = SRReflectionGGX
+    Horizon Occlusion = 1
+@End
+
+@Sub SROcclusion = SROcclusionMap
+    Occlusion Map = nil
+    Channel;occlusion = 0
+    Occlusion = 1
+    UV Set = 0
+    Vertex Channel = 0
+    Cavity Map = nil
+    Channel;cavity = 0
+    Diffuse Cavity = 1
+    Specular Cavity = 1
+@End
+
+@Sub SRMerge = SRMerge
+    Texture Tiling = 1
+    Tile U = 1
+    Offset U = 0
+    Tile V = 1
+    Offset V = 0
+    Wrap = 1
+    Aniso = 2
+    Filter = 1
+@End
+

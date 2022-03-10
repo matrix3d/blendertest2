@@ -1,0 +1,116 @@
+@Sub SRSubdivision = SRSubdivisionPN
+    Tessellation = 128
+    Smoothing = 1
+@End
+
+@Sub SRDisplacement = SRDisplacementHeight
+    Displacement Map = nil
+    Scale = 0.101
+    Scale Center = 1
+    Relative Scale = 0
+@End
+
+@Sub SRSurface = SRSurfaceDetailNormalMap
+    Normal Map = @Tex file "../Textures/Common_Eye_Player_NI.png" fileFull "G:/!Projects/Marmoset/bundles/!TODO/FF7R_Tifa/Assets/Textures/Common_Eye_Player_NI.png" srgb 0 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Scale & Bias = 1
+    Flip X = 0
+    Flip Y = 1
+    Flip Z = 0
+    Object Space = 0
+    Detail Normal Map = @Tex file "../Textures/Common_Eye_Player_NO.png" fileFull "G:/!Projects/Marmoset/bundles/!TODO/FF7R_Tifa/Assets/Textures/Common_Eye_Player_NO.png" srgb 0 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    UV Set = 0
+    Scale & Bias;detail = 1
+    Flip X;detail = 0
+    Flip Y;detail = 1
+    Flip Z;detail = 0
+    Detail Tiling = 1
+    Detail Offset = 0
+    Detail Weight Map = nil
+    Channel;detail = 0
+    Detail Weight = 0.435
+@End
+
+@Sub SRMicrosurface = SRMicrosurfaceAdvancedMap
+    Microsurface Map = nil
+    Channel = 3
+    Mode = 0
+    Maximum = 0.9
+    Minimum = 0.806
+    Exponent = 1
+    Horizon Smoothing = 0
+@End
+
+@Sub SRAlbedo = SRAlbedoMap
+    Albedo Map = @Tex file "../Textures/PC0002_00_Eye_C.png" fileFull "G:/!Projects/Marmoset/bundles/!TODO/FF7R_Tifa/Assets/Textures/PC0002_00_Eye_C.png" srgb 1 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Color = 0.880075 0.880075 0.880075
+@End
+
+@Sub SRDiffusion = SRDiffusionScatter
+    Scatter Map = nil
+    Scatter Depth (mm) = 176
+    Scatter Color = 0.880075 0.124428 0.124428
+    Translucency Map = nil
+    Translucency = 0
+    Translucency Color = 1 0.0196543 0.00797734
+    Translucency Depth (mm) = 0
+    Translucency Scatter = 0
+    Fuzz Map = nil
+    Fuzz = 0.1
+    Fuzz Color = 1 1 1
+    Mask Fuzz with Gloss = 1
+@End
+
+@Sub SRReflectivity = SRReflectivitySpecularMap
+    Specular Map = nil
+    Channel;specular = 4
+    Intensity = 0.034
+    Color = 1 1 1
+    Fresnel = 0.384
+    Fresnel Color = 1 1 1
+    Conserve Energy = 1
+@End
+
+@Sub SRReflection = SRReflectionGGX
+    Horizon Occlusion = 1
+@End
+
+@Sub SRReflection2 = SRReflectionGGX
+    Horizon Occlusion = 1
+    Secondary Gloss = 0.41608
+    Secondary Intensity = 1.79804
+    Secondary Intensity Color = 1 1 1
+    Secondary Fresnel = 0.0511364
+    Secondary Fresnel Color = 1 1 1
+@End
+
+@Sub SROcclusion = SROcclusionMap
+    Occlusion Map = @Tex file "../Textures/PC0002_00_Eye_O.png" fileFull "G:/!Projects/Marmoset/bundles/!TODO/FF7R_Tifa/Assets/Textures/PC0002_00_Eye_O.png" srgb 1 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Channel;occlusion = 0
+    Occlusion = 1
+    UV Set = 1
+    Vertex Channel = 0
+    Cavity Map = @Tex file "../Textures/Common_Eye_Mob_O.png" fileFull "G:/!Projects/Marmoset/bundles/!TODO/FF7R_Tifa/Assets/Textures/Common_Eye_Mob_O.png" srgb 1 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Channel;cavity = 1
+    Diffuse Cavity = 0
+    Specular Cavity = 0.881
+@End
+
+@Sub SREmissive = SREmissiveMap
+    Emissive Map = nil
+    Color = 1 1 1
+    Intensity = 0.1
+    UV Set = 0
+    Glow = 0 0 0
+@End
+
+@Sub SRMerge = SRMerge
+    Texture Tiling = 1
+    Tile U = 1
+    Offset U = 0
+    Tile V = 1
+    Offset V = 0
+    Wrap = 1
+    Aniso = 2
+    Filter = 1
+@End
+

@@ -1,0 +1,90 @@
+@Sub SRSurface = SRSurfaceDetailNormalMap
+    Normal Map = nil
+    Scale & Bias = 1
+    Flip X = 0
+    Flip Y = 0
+    Flip Z = 0
+    Object Space = 0
+    Detail Normal Map = nil
+    UV Set = 0
+    Scale & Bias;detail = 1
+    Flip X;detail = 0
+    Flip Y;detail = 0
+    Flip Z;detail = 0
+    Detail Tiling = 1
+    Detail Offset = 0
+    Detail Weight Map = nil
+    Channel;detail = 0
+    Detail Weight = 4
+@End
+
+@Sub SRMicrosurface = SRMicrosurfaceAdvancedMap
+    Microsurface Map = nil
+    Channel = 0
+    Mode = 0
+    Maximum = 1
+    Minimum = 0.836634
+    Exponent = 8
+    Horizon Smoothing = 1
+@End
+
+@Sub SRAlbedo = SRAlbedoMap
+    Albedo Map = nil
+    Color = 0 0 0
+@End
+
+@Sub SRDiffusion = SRDiffusionLambertian
+@End
+
+@Sub SRReflectivity = SRReflectivitySpecularMap
+    Specular Map = nil
+    Channel;specular = 3
+    Intensity = 0.25
+    Color = 1 1 1
+    Fresnel = 1
+    Fresnel Color = 1 1 1
+    Conserve Energy = 1
+@End
+
+@Sub SRReflection = SRReflectionGGX
+    Horizon Occlusion = 4
+@End
+
+@Sub SRReflection2 = SRReflectionMirror
+    Horizon Occlusion = 0.0192138
+    Secondary Intensity = 0
+    Secondary Intensity Color = 1 1 1
+    Secondary Fresnel = 1
+    Secondary Fresnel Color = 1 1 1
+@End
+
+@Sub SROcclusion = SROcclusionMap
+    Occlusion Map = nil
+    Channel;occlusion = 3
+    Occlusion = 1
+    UV Set = 0
+    Vertex Channel = 0
+    Cavity Map = nil
+    Channel;cavity = 0
+    Diffuse Cavity = 0
+    Specular Cavity = 0
+@End
+
+@Sub SRTransparency = SRTransparencyDither
+    Use Albedo Alpha = 0
+    Alpha Map = @Tex file "../Textures/base.dds" fileFull "G:/!Projects/Marmoset/bundles/!TODO/FF7R_Tifa/Assets/Textures/base.dds" srgb 0 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Channel = 1
+    Alpha = 0.623762
+@End
+
+@Sub SRMerge = SRMerge
+    Texture Tiling = 1.80623
+    Tile U = 1.6223
+    Offset U = 0.0833334
+    Tile V = 0.696374
+    Offset V = 0.111111
+    Wrap = 1
+    Aniso = 2
+    Filter = 1
+@End
+

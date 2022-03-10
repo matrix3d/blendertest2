@@ -1,0 +1,99 @@
+@Sub SRSurface = SRSurfaceDetailNormalMap
+    Normal Map = @Tex file "../Textures/WE0002_00_Body_N.png" fileFull "G:/!Projects/Marmoset/bundles/!TODO/FF7R_Tifa/Assets/Textures/WE0002_00_Body_N.png" srgb 0 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Scale & Bias = 1
+    Flip X = 0
+    Flip Y = 1
+    Flip Z = 0
+    Object Space = 0
+    Detail Normal Map = nil
+    UV Set = 0
+    Scale & Bias;detail = 1
+    Flip X;detail = 0
+    Flip Y;detail = 0
+    Flip Z;detail = 0
+    Detail Tiling = 1
+    Detail Offset = 0
+    Detail Weight Map = nil
+    Channel;detail = 0
+    Detail Weight = 2
+@End
+
+@Sub SRMicrosurface = SRMicrosurfaceAdvancedMap
+    Microsurface Map = @Tex file "../Textures/WE0002_00_Body_M.png" fileFull "G:/!Projects/Marmoset/bundles/!TODO/FF7R_Tifa/Assets/Textures/WE0002_00_Body_M.png" srgb 0 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Channel = 1
+    Mode = 1
+    Maximum = 1
+    Minimum = 0
+    Exponent = 1
+    Horizon Smoothing = 0
+@End
+
+@Sub SRAlbedo = SRAlbedoMap
+    Albedo Map = @Tex file "../Textures/WE0002_00_Body_C.png" fileFull "G:/!Projects/Marmoset/bundles/!TODO/FF7R_Tifa/Assets/Textures/WE0002_00_Body_C.png" srgb 1 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Color = 1 1 1
+@End
+
+@Sub SRDiffusion = SRDiffusionMicrofiber
+    Fuzz Map = nil
+    Fuzz = 0.1
+    Fuzz Color = 1 1 1
+    Fuzz Scatter = 1
+    Fuzz Occlusion = 1
+    Mask Fuzz with Gloss = 1
+@End
+
+@Sub SRReflectivity = SRReflectivityMetalnessAdvanced
+    Metalness Map = @Tex file "../Textures/WE0002_00_Body_M.png" fileFull "G:/!Projects/Marmoset/bundles/!TODO/FF7R_Tifa/Assets/Textures/WE0002_00_Body_M.png" srgb 0 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Channel = 0
+    Metalness = 1
+    Invert = 0
+    Specular Level Map = nil
+    Channel;advMtlMask = 0
+    Specular = 0.02
+    Invert = 0
+    Specular Curve = 0
+@End
+
+@Sub SRReflection = SRReflectionGGX
+    Horizon Occlusion = 3.96049
+@End
+
+@Sub SRReflection2 = SRReflectionGGX
+    Horizon Occlusion = 1.388
+    Secondary Gloss = 0.1
+    Secondary Intensity = 0.419551
+    Secondary Intensity Color = 1 1 1
+    Secondary Fresnel = 0.517
+    Secondary Fresnel Color = 1 1 1
+@End
+
+@Sub SROcclusion = SROcclusionMap
+    Occlusion Map = @Tex file "../Textures/WE0002_00_Body_O.png" fileFull "G:/!Projects/Marmoset/bundles/!TODO/FF7R_Tifa/Assets/Textures/WE0002_00_Body_O.png" srgb 1 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Channel;occlusion = 1
+    Occlusion = 1
+    UV Set = 1
+    Vertex Channel = 0
+    Cavity Map = nil
+    Channel;cavity = 2
+    Diffuse Cavity = 0.25
+    Specular Cavity = 1
+@End
+
+@Sub SRTransparency = SRTransparencyDither
+    Use Albedo Alpha = 1
+    Alpha Map = @Tex file "../Textures/WE0002_00_Body_A.png" fileFull "G:/!Projects/Marmoset/bundles/!TODO/FF7R_Tifa/Assets/Textures/WE0002_00_Body_A.png" srgb 1 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Channel = 0
+    Alpha = 1
+@End
+
+@Sub SRMerge = SRMerge
+    Texture Tiling = 1
+    Tile U = 1
+    Offset U = 0
+    Tile V = 1
+    Offset V = 0
+    Wrap = 1
+    Aniso = 2
+    Filter = 1
+@End
+

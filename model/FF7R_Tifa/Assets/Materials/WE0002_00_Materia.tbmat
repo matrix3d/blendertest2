@@ -1,0 +1,75 @@
+@Sub SRSurface = SRSurfaceNormalMap
+    Normal Map = @Tex file "../Textures/Common_Materia_N.png" fileFull "G:/!Projects/Marmoset/bundles/!TODO/FF7R_Tifa/Assets/Textures/Common_Materia_N.png" srgb 0 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Scale & Bias = 1
+    Flip X = 0
+    Flip Y = 1
+    Flip Z = 0
+    Object Space = 0
+@End
+
+@Sub SRMicrosurface = SRMicrosurfaceGlossMap
+    Gloss Map = nil
+    Channel = 0
+    Gloss = 0.871287
+    Invert = 0
+@End
+
+@Sub SRAlbedo = SRAlbedoMap
+    Albedo Map = @Tex file "../Textures/Common_Materia_CL.png" fileFull "G:/!Projects/Marmoset/bundles/!TODO/FF7R_Tifa/Assets/Textures/Common_Materia_CL.png" srgb 1 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Color = 0.8 0.8 0.8
+@End
+
+@Sub SRDiffusion = SRDiffusionLambertian
+@End
+
+@Sub SRReflectivity = SRReflectivityMetalnessAdvanced
+    Metalness Map = nil
+    Channel = 0
+    Metalness = 0
+    Invert = 0
+    Specular Level Map = nil
+    Channel;advMtlMask = 0
+    Specular = 0.04
+    Invert = 0
+    Specular Curve = 0
+@End
+
+@Sub SRReflection = SRReflectionGGX
+    Horizon Occlusion = 1
+@End
+
+@Sub SREmissive = SREmissiveMap
+    Emissive Map = nil
+    Color = 1 1 1
+    Intensity = 1
+    UV Set = 0
+    Glow = 0.0250082 0.00031179 0.00031179
+@End
+
+@Sub SRTransparency = SRTransparencyRefraction
+    Index of Refraction = 1.025
+    Distant Background = 0
+    Use Microsurface = 1
+    Tint = 1 1 1
+    Albedo Tint = 1
+    Caustics = 1
+    Mask = nil
+    Channel;mask = 0
+    Cutout = nil
+    Channel;cutout = 0
+    Use Albedo Alpha = 0
+    Use Dither = 0
+    Invert Mask = 0
+@End
+
+@Sub SRMerge = SRMerge
+    Texture Tiling = 0.01
+    Tile U = 1
+    Offset U = -0.0277778
+    Tile V = 1
+    Offset V = -0.722222
+    Wrap = 1
+    Aniso = 2
+    Filter = 1
+@End
+
