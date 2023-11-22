@@ -9,4 +9,5 @@ https://www.youtube.com/watch?v=6cweiw9BjpQ&list=PLE885296A496C3D38&index=4
 - t top视图
 - 5 平视
 - 1，3
-- ctrl +tap,切换点线面，模式
+- ctrl +tab,切换点线面，模式
+- tab 切换编辑模式
