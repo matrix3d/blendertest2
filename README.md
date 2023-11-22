@@ -14,3 +14,4 @@ https://www.youtube.com/watch?v=6cweiw9BjpQ&list=PLE885296A496C3D38&index=4
 - e 挤出表面
 - shift a 添加
 - alt+点击，线，选择一圈
+- g 移动，r 旋转 s缩放
