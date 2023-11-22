@@ -16,4 +16,4 @@ https://www.youtube.com/watch?v=6cweiw9BjpQ&list=PLE885296A496C3D38&index=4
 - alt+点击，线，选择一圈
 - g 移动，r 旋转 s缩放
 - object菜单 shader smooth，光滑
-- loop cut and slide环切
+- loop cut and slide环切 按住移动位置
