@@ -25,3 +25,4 @@ https://www.youtube.com/watch?v=6cweiw9BjpQ&list=PLE885296A496C3D38&index=4
 - 建马克杯步骤，1圆柱，2顶面es，再e，环切杯把，删面，f连接面，平滑移动中线，渲染加入平滑修改器
 - 滚轮，旋转视角，shift+移动 ctrl+缩放
 - 缩放可以选择沿着面缩放
+- 斜角，绝对，50°。修改器
