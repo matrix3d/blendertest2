@@ -22,3 +22,5 @@ https://www.youtube.com/watch?v=6cweiw9BjpQ&list=PLE885296A496C3D38&index=4
 - 缩放可以选择沿着面缩放
 - 斜角，绝对，50°。修改器
 - 曲线，深度，挤出，能建立扁形状
+- 几何节点，右键find找节点，如果节点找不到。
+- 几何节点，ctrl+右键拖拽，删除连线
