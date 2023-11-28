@@ -9,7 +9,7 @@ https://www.youtube.com/watch?v=6cweiw9BjpQ&list=PLE885296A496C3D38&index=4
 - tab 切换编辑模式
 - e 挤出表面
 - f 建立表面，在2条线
-- shift a 添加
+- shift a 添加，mesh，几何节点，等
 - alt+点击，线，选择一圈
 - g 移动，r 旋转 s缩放，+xyz，沿轴
 - object菜单 shader smooth，光滑
