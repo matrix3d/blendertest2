@@ -24,3 +24,4 @@ https://www.youtube.com/watch?v=6cweiw9BjpQ&list=PLE885296A496C3D38&index=4
 - 曲线，深度，挤出，能建立扁形状
 - 几何节点，右键find找节点，如果节点找不到。
 - 几何节点，ctrl+右键拖拽，删除连线
+- 导出obj或fbx时路径模式要选择复制，才能正确导出贴图
