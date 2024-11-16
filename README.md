@@ -30,3 +30,4 @@ https://www.youtube.com/watch?v=6cweiw9BjpQ&list=PLE885296A496C3D38&index=4
 - 编辑器设置，根据选中物体旋转操作
 - view 导航，walk模式
 - 挖洞，可以将模型添加实体化修改器。然后加boolean修改器。
+- 绝对栅格吸附，点击吸附，编辑的时候比较精准
