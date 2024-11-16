@@ -29,3 +29,4 @@ https://www.youtube.com/watch?v=6cweiw9BjpQ&list=PLE885296A496C3D38&index=4
 - 选中物体alt+d链接，模型共享一个数据。导出fbx也只有一个模型数据。添加到收集的方法，也可以共享，但导出还是2套数据
 - 编辑器设置，根据选中物体旋转操作
 - view 导航，walk模式
+- 挖洞，可以将模型添加实体化修改器。然后加boolean修改器。
